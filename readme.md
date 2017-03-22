@@ -27,6 +27,7 @@ php artisan key:generate
 
 ``` plain
 touch database/database.sqlite
+sudo apt-get install php5-sqlite
 php artisan migrate
 php artisan db:seed
 ```
